@@ -1,0 +1,14 @@
+.search-container mat-form-field + mat-fab {
+  margin-left: 8px;
+}
+
+.search-button-margins {
+  margin-left: 10px;
+  margin-bottom: 20px;
+}
+
+.card-margins {
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 10px;
+}

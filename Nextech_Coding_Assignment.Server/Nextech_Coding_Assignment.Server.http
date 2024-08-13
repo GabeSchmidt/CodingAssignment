@@ -1,0 +1,6 @@
+@Nextech_Coding_Assignment.Server_HostAddress = http://localhost:5139
+
+GET {{Nextech_Coding_Assignment.Server_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

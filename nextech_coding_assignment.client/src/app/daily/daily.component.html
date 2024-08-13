@@ -1,0 +1,6 @@
+<div class="stock-chart-margins">
+  @if (dps.length > 0)
+  {
+  <canvasjs-stockchart [options]="stockChartOptions" [styles]="{width: '100%', height: '450px'}" (stockChartInstance)="GetStockChartInstance($event)"></canvasjs-stockchart>
+  }
+</div>

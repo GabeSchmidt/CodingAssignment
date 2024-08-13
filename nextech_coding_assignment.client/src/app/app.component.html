@@ -1,0 +1,6 @@
+
+<app-search (onSelectedCompanyChange)="SelectedCompany($event)" />
+
+<app-daily [symbol]="selectedCompany"></app-daily>
+
+<app-news-feed [symbol]="selectedCompany"></app-news-feed>

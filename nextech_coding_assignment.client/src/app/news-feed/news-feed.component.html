@@ -1,0 +1,13 @@
+@if(data != null)
+{
+  @for (item of data.feed; track item) {
+  <mat-card appearance="outlined" class="news-feed-cards">
+    <mat-card-header>
+      <mat-card-title><a target="_blank" href="{{ item.url }}">{{ item.title }}</a></mat-card-title>
+    </mat-card-header>
+    <mat-card-content>
+      <p>{{ item.summary }}</p>
+    </mat-card-content>
+  </mat-card>
+  }
+}
